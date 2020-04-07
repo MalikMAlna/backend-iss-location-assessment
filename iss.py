@@ -8,8 +8,8 @@ __author__ = '''https://timestamp.online/article/
                 how-to-convert-timestamp-to-datetime-in-python,
                 Watched ISS Demo by Piero and Daniel'''
 
-# if sys.version_info[0] < 3:
-#     raise RuntimeError("This program requires Python 3+")
+if sys.version_info[0] < 3:
+    raise RuntimeError("This program requires Python 3+")
 
 
 iss_icon = "iss.gif"
