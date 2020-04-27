@@ -69,8 +69,8 @@ def main(args):
         print("- {} in {}".format(astro["name"], astro["craft"]))
 
     lat, lon = get_iss_location()
-    print("\nCurrent ISS coordinates: latitude: {:.02f}, longitude: {:.02f}"
-          .format(lat, lon))
+    print("\nCurrent ISS coordinates: latitude: {}, longitude: {}"
+          .format(round(lat, 2), round(lon, 2)))
 
     screen = None
     try:
